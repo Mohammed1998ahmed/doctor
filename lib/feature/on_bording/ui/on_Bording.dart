@@ -1,12 +1,13 @@
-import 'package:doctor/core/helpers/space.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-import '../../../core/helpers/button_Click.dart';
-import '../../../core/widghts/on_Bording/stack_Image.dart';
-import '../../../core/widghts/on_Bording/text_button.dart';
-import '../../../core/widghts/on_Bording/top_Widght_AppBar.dart';
+import '../../../core/widghts/button_Click.dart';
+import 'widght/stack_Image.dart';
+import 'widght/text_button.dart';
+import 'widght/top_Widght_AppBar.dart';
+import '../../../core/widghts/space.dart';
 
+// Clean Code on Bording
 class On_Bording extends StatelessWidget {
   const On_Bording({super.key});
 
