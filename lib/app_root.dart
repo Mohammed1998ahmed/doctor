@@ -12,7 +12,7 @@ class App_Root extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ScreenUtilInit(
-      designSize: const Size(380, 760),
+      designSize: const Size(380, 812),
       minTextAdapt: true,
       splitScreenMode: true,
       child: BlocProvider(
