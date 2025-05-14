@@ -19,7 +19,7 @@ class App_Root extends StatelessWidget {
         create: (context) => SignUpCubit(),
         child: MaterialApp(
           debugShowCheckedModeBanner: false,
-          title: 'First Method',
+          title: 'First App',
           // You can use the library anywhere in the app even in theme
           theme: ThemeData(
             primarySwatch: Colors.blue,
