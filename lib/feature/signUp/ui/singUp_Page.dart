@@ -1,6 +1,3 @@
-import 'package:doctor/core/helpers/button_Click.dart';
-import 'package:doctor/core/helpers/space.dart';
-import 'package:doctor/core/helpers/text_Widght.dart';
 import 'package:doctor/core/theme/colors.dart';
 import 'package:doctor/feature/signUp/logic/cubit/sign_up_cubit.dart';
 import 'package:flutter/material.dart';
@@ -8,8 +5,11 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:intl_phone_field/intl_phone_field.dart';
 
-import '../../../core/helpers/TextFormField_Style.dart';
+import '../../../core/widghts/TextFormField_Style.dart';
+import '../../../core/widghts/button_Click.dart';
 import '../../../core/widghts/login_Page/soisel_Madel_Account.dart';
+import '../../../core/widghts/space.dart';
+import '../../../core/widghts/text_Widght.dart';
 
 // ignore: must_be_immutable
 class SignUp extends StatelessWidget {
