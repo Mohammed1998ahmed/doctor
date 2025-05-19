@@ -11,4 +11,8 @@ class LoginCubit extends Cubit<LoginState> {
     isChecked = !isChecked;
     emit(Login_CheckBox());
   }
+
+  void postLogin({required String email, required String passWord}) {
+    emit(LoginLeading());
+  }
 }
