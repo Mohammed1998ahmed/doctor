@@ -43,7 +43,14 @@ dependencies:
   shared_preferences: ^2.2.3
   flutter_screenutil: ^5.9.3
   intl_phone_field: ^3.2.0
+<<<<<<< HEAD
   firebase_core: ^3.4.0
+=======
+<<<<<<< HEAD
+  firebase_core: 
+=======
+>>>>>>> parent of b00e1e8 (-realse App)
+>>>>>>> 09f3a96fb21705caa2da0c977ad7f3d5904addeb
 
 dev_dependencies:
   flutter_test:
