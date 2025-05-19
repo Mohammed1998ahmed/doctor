@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-import '../../theme/colors.dart';
+import '../../../../core/theme/colors.dart';
 
 class Top_Widght extends StatelessWidget {
   const Top_Widght({
